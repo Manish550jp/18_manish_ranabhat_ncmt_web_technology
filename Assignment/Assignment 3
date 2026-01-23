@@ -1,1 +1,56 @@
+       CHAPTER 3: WEBSITE STRUCTURE DESIGN
+
+
+1. Define Information Architecture (IA).
+• 	Information Architecture (IA) is the structural design of information within a digital product (like a website or app).
+• 	It organizes and labels content to make it easy to find, understand, and navigate.
+
+2. What is a “Wireframe”?
+• 	A wireframe is a basic visual layout of a webpage or app.
+• 	It shows the structure, placement of elements, and navigation flow without detailed design or colors.
+
+3. Explain the concept of “Cognitive Friction” in web design.
+• 	Cognitive Friction occurs when a user struggles to understand or use an interface.
+• 	It happens due to confusing design, unclear instructions, or unexpected behavior, slowing down task completion.
+
+4. Why should URL slugs use hyphens instead of underscores?
+• 	Search engines like Google treat hyphens as word separators, improving readability and SEO.
+• 	Underscores are not recognized as separators, making URLs harder to read and less search-friendly
+
+Group B: Long Questions
+Q5. Compare and contrast Hierarchical (Tree) structure and Linear (Sequential) structure.
+• 	Hierarchical (Tree) Structure:
+• 	Information is organized in a parent–child relationship.
+• 	Allows branching into categories and subcategories.
+• 	Easy navigation for large, complex websites.
+• 	Example: An e-commerce site where the homepage branches into categories like “Electronics → Mobile Phones → Accessories.”
+• 	Linear (Sequential) Structure:
+• 	Information is arranged step by step in a straight line.
+• 	Users move forward or backward one step at a time.
+• 	Best for processes or tutorials.
+• 	Example: An online course module where lessons must be completed in sequence.
+Comparison:
+• 	Hierarchical = flexible, multi-path navigation.
+• 	Linear = rigid, step-by-step navigation.
+• 	Use hierarchical for large content sites, linear for guided processes.
+
+Q6. Explain the “Three-Click Rule” and its significance in User Experience (UX) design.
+• 	Definition: The Three-Click Rule suggests that users should be able to reach any piece of information on a website within three clicks.
+• 	Significance:
+• 	Reduces frustration and improves usability.
+• 	Encourages clear navigation and logical structure.
+• 	Helps retain users by making content easily accessible.
+• 	Note: While not a strict law, it’s a guideline to ensure efficiency and user satisfaction.
+
+Q7.“Plan before you do.” Explain how tools like Card Sorting and Flowcharts help in planning a website’s structure.
+• 	Card Sorting:
+• 	Users group topics into categories using cards.
+• 	Reveals how people naturally organize information.
+• 	Helps design intuitive menus and navigation.
+• 	Flowcharts:
+• 	Visual diagrams showing the sequence of pages and links.
+• 	Clarifies relationships between sections.
+• 	Prevents confusion by mapping user journeys before development.
+Overall:
+Both tools ensure the website is user-centered, logical, and efficient before coding begins, saving time and reducing redesign later.
 
