@@ -1,10 +1,130 @@
-                 Student Name=                                        Program =
-                 Roll\ID NO =                                         Date =
+CHAPTER 1: AN OVERVIEW OF THE INTERNET AND THE WEB
 
+Group A:Short Question Answer
+1. Define the term "protocol" in the context of internet.
+ans:
+     A protocol is a standardized set of rules and formats that define how data is formatted,transmitted , recevied 
+and interperted between devices on the internet acting as a common language for the computers to communicate.
+Example: Http , TCP/IP , FTP .
 
-                                              Chapter I
-                                   AN OVERVIEV OF THE INTERNET AND THE WEB
+2. what is the primaey difference between a web browser and a search engine?
+ans:
+    A web browser(chrome , firefox) is a software application used to access and display web pages, whereas a 
+search engine(google , bing) is a web service within the browser that is used to search and retrieve specfic information from the internet.
 
-Group A: Short Question
-1 Define the term "Protocol" in the contex  of the internet 
+3. Define the World Wide Web (WWW).
+ans:
+     The World Wide Web(WWW) is a vast collection of interlinked web pages and resoures that are accessed via the 
+internet using HTTP/HTTPS through web browsers allowing users ti navigate text , videos and more to finf=d and share data globally.
+
+4. Distingusih between a static web page and a dymanic web page.
+| Static Web Page            | Dynamic Web Page                      |
+| -------------------------- | ------------------------------------- |
+| Same content for all users | Content changes based on user or data |
+| No server-side processing  | Uses server-side scripts              |
+| Low maintenance            | Higher maintenance                    |
+
+Group B: Long Questions 
+
+5. Explain the client-server architecture of the web with a neat diagram.
+ans
+    :The client server architecture is a model where clients requests information or services to the central servers
+and servers provide those services over a network (usually the internet).
+How it works:
+i.  A client is a device/software like a web browser (chrome, firefox).
+ii. A server is a prowerful computer that stores webistes , files and databases.
+iii. The client sends a request (HTTP/HTTPS) to the server.
+iv. The server processes the request and sends back a response (web page , images , data).
+
+Neat Diagram 
+Client (Browser)  →  HTTP Request  →  Web Server
+Client (Browser)  ←  HTTP Response ←  Web Server
+
+6. DEscribe the functions of the following internet services: Email , FTP , and VOIP.
+a.Email (Electronic Mail)
+Email is used to send and receive message electronically over the internet.
+
+Functions:
+i. Sending and receving text messages.
+ii. Attaching files (documents , images , videos).
+iii. Fast and low-cost communication.
+iv. Supports CC , BCC and mailing lists.
+
+EXample: Gmail , outlook , yahoo mail.
+
+b.FTP(file Transfer Protocol)
+FTP is used to transfer files between coputers over the internet.
+
+Functions:
+i. Uploading files to a server.
+ii.Downloading files form the server.
+iii.Managing files on remote servers.
+iv.Commonly used in website hosting.
+
+Example:FileZilla, WinSCP
+
+c.VoIP(Voice over Internet protocol)
+Voip allows voice communication over the internet instead of traditional phone lines.
+
+Functions:
+i.Voice calls over the internet.
+ii.video calls and conferencing.
+iii.lower cost than traditional calls.
+iv.Supports messaging and file sharing.
+
+Example:Skype, whatsapp , Zoom
+
+7. "The internet is a network of networks".Elaborate on this statement explaning how packect switching works.
+The internet is called a network of networks because it connects millions of smaller networks (home networks , school networks , ISP networks ) together worldwide.
+
+Packet Switching
+Packet Switching is a ethid where data is broken into small packets before being sent.
+
+How packet Switching works:
+Data is divided into small packets.
+Each packet contains:
+i.Source address.
+Dii.estination address.
+iii.Packet number.
+iv.At the destination, packets are reassembled in correct order.
+
+Diagram:
+Sender
+  |
+[Packet 1] --> Route A -->|
+[Packet 2] --> Route B -->|--> Receiver
+[Packet 3] --> Route C -->|
+
+Group C: Scenario-Based Questions 
+
+ 8. A startup company wants to host a website that displays the same information to allvisitors and requires very low maintenance costs. However, they are being advised to usea dynamic website. As a consultant, would you agree? Justify your answer.
+ans:
+    Scenario: The startup wants a website that displays the same information to all visitors and requires very low maintenance. 
+They are being advised to use a dynamic website.
+
+Answer: No, a dynamic website is not necessary in this scenario because of the following reasons:
+A static website is sufficient because the content is same for all visitors and does not require frequent updates or user interaction.
+
+Static websites are faster to load, more secure, and cheaper to host because they consist of simple HTML, CSS, and possibly JavaScript files.
+
+Dynamic websites are useful when you need features like user login, content management systems, interactive forms, or personalized content.
+Implementing these would increase complexity and maintenance costs unnecessarily for this startup.
+
+9. A user types www.google.com into their browser, but the browser displays a ”Server Not Found” error, even though the internet connectionis active. However, accessing the site via 142.250.190.46 works. Diagnose the problem and explain the underlying technology that failed. 
+ans
+    :The problem that the user is facing lies in DNS(Domain Name System) resolution . when the user type www.google.com , 
+the browser asks a DNS server to convert this into a human readable domain into an ip address . The error indicates that 
+the DNS lookup failed , even though the internet connection is active . By using ip address the website can be accessed as
+it bypasses DNS . DNS is the underlying technology that has failed in this situation , either due to misconfigured DNS settings
+, a down DNS server or network issues affecting domain name resolution.
+
+ 10. A multinational corporation wants to share sensitive inventory data with specific suppliers but does not want this informationavailable to the general public. Explain which network type (Intranet, Extranet, or Internet) they should implement and why.
+ans
+    :By the given situation , the corpoartion should implement an extranet . An extranet is a private netowrk that allows 
+controlled access  to authorized external users such as suppliers or partners while keeping the information secure for the 
+general public . Unlike an intranet which is limited employees an extranet extends certain resources securely to the outsiders. 
+Using an extranet ensures that sensitive inventory data is shared only wiht intended suppliers , maintaining confidentiality and 
+security while facilitating collaboration. Extranet extends the Intranet security by allowing trusted partners to access information 
+through a secured network
+
   
