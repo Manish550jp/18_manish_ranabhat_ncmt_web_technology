@@ -54,3 +54,57 @@ Q7.“Plan before you do.” Explain how tools like Card Sorting and Flowcharts 
 Overall:
 Both tools ensure the website is user-centered, logical, and efficient before coding begins, saving time and reducing redesign later.
 
+Q8. Website Structure for a University
+• 	Best Structural Model: Hierarchical (Tree Structure)
+• 	A university website has multiple categories (Admissions, Departments, Alumni, News).
+• 	A hierarchical model organizes content into parent-child relationships, making navigation intuitive.
+Justification:
+• 	Easy scalability for hundreds of pages.
+• 	Clear navigation paths (e.g., Home → Admissions → Undergraduate → Apply).
+• 	Helps users quickly locate information without confusion.
+Rough Diagram:
+Home
+ ├── Admissions
+ │    ├── Undergraduate
+ │    ├── Postgraduate
+ │    └── International Students
+ ├── Departments
+ │    ├── Science
+ │    ├── Arts
+ │    └── Engineering
+ ├── Alumni
+ │    ├── Events
+ │    └── Success Stories
+ └── News
+      ├── Announcements
+      └── Press Releases
+
+
+Q9. Design Failure Analysis (KISS Principle)
+• 	Scenario: User leaves because navigation menu is hidden behind a small icon.
+• 	KISS Principle (Keep It Simple, Stupid):
+• 	Websites should prioritize simplicity and clarity.
+• 	Hiding the main navigation behind a small icon (like a hamburger menu) on a desktop screen violates this principle.
+Analysis:
+• 	On desktop, users expect visible navigation menus.
+• 	Hiding it adds unnecessary complexity and forces extra clicks.
+• 	Result: Poor user experience → high bounce rate.
+Correct Approach:
+• 	Keep navigation visible and straightforward on desktop.
+• 	Use hamburger menus only for mobile screens where space is limited.
+
+Q10. Bad URL Structure in E-commerce
+• 	Given URL:www.shop.com/prod?id=55&cat=9
+
+• 	Problems:
+• 	For Users: Not readable, doesn’t convey product meaning.
+• 	For SEO: Search engines prefer descriptive URLs. Parameters () don’t provide context.
+Better Structure with Page Slugs:
+• 	Use descriptive slugs that include product and category names.
+• 	Example:www.shop.com/electronics/smartphone/samsung-galaxy-s24
+
+• 	Benefits:
+• 	User-friendly → easy to remember and share.
+• 	SEO-friendly → keywords in URL improve ranking.
+• 	Clear hierarchy → category → product.
+
