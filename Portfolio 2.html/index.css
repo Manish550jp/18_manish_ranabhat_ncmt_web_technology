@@ -1,0 +1,359 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+
+nav {
+    position: sticky;
+    top: 0;
+}
+
+.div1 {
+    font-size: x-large;
+    margin: 0px 0px 0px 70px;
+    color: rgb(0, 128, 255);
+    font-weight: var(--font-semi-bold);
+    transition: .4s;
+}
+
+.div1:hover {
+    color: rgb(253, 39, 6);
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+li {
+    margin: 0px 30px 0px 3px;
+}
+
+.nav_close,
+.nav_toggle {
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+/* Mobile Devive Nevigation */
+@media screen and (max-width: 1150px){
+    nav {
+        height: var(--header--height);
+        margin-top: 0px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        border: groove;
+        color: aliceblue;
+        background-color: rgb(146, 131, 105);
+    }
+    .nav_menu {
+        position: fixed;
+        top: -120%;
+        left: 0%;
+        width: 100%;
+        background-color: rgb(212, 229, 189);
+        box-shadow: 0px 8px 16px hsla(0, 0%, 0%, .5);
+        padding-block: 5rem 4rem;
+        border-radius: 0 0 1.5rem 1.5rem;
+        transition: top .4s;
+    }    
+}
+.nav_list {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        row-gap: 1.5rem;
+    }
+
+    .nav_link {
+        position: relative;
+        color: white;
+        font-size: larger;
+        transition: color .4s, width.4s ;
+        font-style: italic;
+       
+    }
+
+    .nav_link::after {
+        
+        width: 60%;
+        height: 2px;
+        background-color: hsl(var(--hue), 80%, 48%);
+        position: absolute;
+        left: 0;
+        bottom: -.5rem;
+        transition: width .4s;
+    }
+
+    .nav_link:hover{
+        color: rgb(253, 6, 6);
+    }
+
+    .nav_
+    link:hover::after{
+        width: 50%;
+    }
+
+    .nav_close {
+        position: absolute ;
+        top: 1rem;
+        right: 1.5rem;
+    }
+
+    .show_menu {
+        top: 0%;
+    }
+
+    /* For large device */
+    @media screen and (min-width: 1150px){
+        nav {
+            height: var(--header--height);
+            margin-top: 0px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-top: 30px;
+            padding-bottom: 30px;
+            border: groove;
+            color: aliceblue;
+            background-color: rgb(0, 0, 0);
+        }        
+        .nav_container {
+            display: flex;
+            flex-direction: row;
+        
+        }
+
+        .nav_list {
+            display: flex;
+            flex-direction: row;
+            padding-right: 2rem;
+            list-style-type: none;
+            text-align: none;
+        }
+    .nav_toggle,
+    .nav_close {
+        display: none;
+    } 
+    
+    }
+   
+
+    /*  Main  */
+.second_div {
+    display: flex;
+    justify-content: space-between;
+    margin:70px 60px 30px 60px;
+    
+}
+
+img {
+    height: 200px;
+    width: 200px;
+    border: groove;
+    border-radius: 50%;
+    box-shadow: 0px 0px 12px 0px rgb(0, 0, 0) ; 
+}
+
+.nav_logo {
+   border: groove;
+   margin: 0px 10px 0px 0px;
+   background-color: rgb(255, 255, 255);
+   
+   
+}
+
+.ul{
+    
+}
+ 
+.below_logo {
+    font-size: x-large;
+    margin: 8px 0px 0px 30px;
+}
+.blank_line {
+    margin-top: -8px;
+    margin-left: -0px;
+    padding: 0px;
+    
+}
+
+.home_social {
+    margin-top: 18px;
+}
+
+.div4 {
+    margin: 60px 0px 0px 0px;
+}
+.p1 {
+   
+    font-weight: 100 bolder;
+    margin: 5px 0px 20px 0px;
+}
+.p2 {
+    font-size: large;
+    margin: 0px 0px 20px 0px;
+}
+.p3 {
+    font-size: large;
+    width: 500px;
+}
+
+.buttons {
+    display: flex;
+    margin: 60px;
+}
+
+.button1 {
+    margin: 0px 30px;
+    height: 40px;
+    width: 110px;
+    border: none;
+    background-color: rgb(2, 234, 223);
+    box-shadow: 0px 0px 12px 0px rgb(34, 77, 67);
+    border-radius: 12px;
+    transition: .4s;
+}
+
+.button1:hover {
+    box-shadow: 0px 0px 12px 0px rgb(0, 0, 0);
+}
+
+.button2 {
+    margin: 0px 30px;
+    height: 42px;
+    width: 110px;
+    color: rgb(255, 255, 255);
+    border: rgb(2, 234, 223) groove;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0px 0px 12px 0px rgb(65, 210, 186);
+    border-radius: 12px;
+    transition: .4s;
+}
+.button2:hover {
+    box-shadow: 0px 0px 12px 0px rgb(0, 0, 0);
+}
+
+.skills_word {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0px;
+}
+.skill_list {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    column-gap: 1.5rem;
+}
+
+.skill1 { 
+   
+    height: 250px;
+    width: 220px;
+    border: groove;
+    text-align: center;
+    
+    border-radius: 12px;
+    color: white;
+    background-color: rgb(255, 255, 255);
+    transition: .4s;
+    list-style-type: none;
+}
+
+.skill1:hover {
+    box-shadow: 0px 0px 12px 0px rgb(0, 0, 0) ;
+}
+.img2 {
+    margin-top: 5px;
+    height: 180px;
+    width: 180px;
+    object-fit: cover;
+    transition: .4s;
+}
+.img2:hover{
+    height: 190px;
+    width: 190px;
+}
+.skill_name {
+    border-radius: 0px 0px 12px 12px;
+    margin-top: 20px;
+    color: rgb(255, 255, 255);
+    height: 41px;
+    background-color: rgb(0, 0, 0);
+}
+
+
+.project {
+    margin-right: 400px;
+}
+
+.cv {
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+    margin-top: 200px;
+}
+.contact {
+    display: flex;
+    justify-content: center;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin-top: 15px;
+    
+    padding-top: 10px;
+    align-self: center;
+}
+.f1 {
+    height: 50px;
+    margin-bottom: 10px;
+}
+.f2 {
+    height: 90px;
+    margin-bottom: 5px;
+}
+
+.submit {
+    align-self: center;
+    height: 40px;
+    width: 80px;
+    color: rgb(0, 0, 0);
+    margin-top: 5px;
+    background-color: rgb(0, 128, 255);
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.icon {
+    color: white;
+    background-color: rgb(54, 49, 49);
+    height: 100px;
+    margin-top: 40px;
+    transition: .4s;
+}
+.icon:hover {
+    box-shadow: 0px 0px 12px 0px rgb(234, 104, 104);
+}
+
+.icon2 {
+    color: azure;
+    align-items: center;
+    margin: 10px 5px;
+    text-decoration: none;
+}
+.icondiv {
+    display: flex;
+    justify-content: center;
+}
+.copyright {
+    margin-top: 22px;
+    text-align: center;
+}
+
